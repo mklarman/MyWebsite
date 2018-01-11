@@ -18,7 +18,9 @@ background-color: blue
 color: red;
 
 }
-
+.header2{
+	text-align: center;
+}
 #splash{
 	height: 150px;
 	width: 250px;
@@ -39,5 +41,62 @@ color: red;
 	width: 250px;
 	background-image: url('stealing.jpg');
 	background-repeat: no-repeat;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
+@media all and (min-width: 480px){
+    
+    .bar2{
+    color: blue;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	}
+    .header2{
+    font-size: 12px;
+    }
+
+    .pics{
+    height: 50px;
+    width: 50px;
+    border: 1px solid green;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+
+    }
+   
+    .cap1{
+    float: left;
+    font-size: 10px
+    }
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+
+	.pics{
+
+	    height: 150px;
+	    width: 150px;
+	    border: 1px solid green;
+	    background-repeat: no-repeat;
+	    margin-bottom: 25px;
+    }
+    .wrapper {
+    	border: 2px solid green;
+
+    }
+
+    .cap1{
+	    border: 2px solid blue;
+	    font-size: 10px;
+	    margin: 0 auto 20px;
+    }
+
+
+}
+
+
+
+
+
+

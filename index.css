@@ -2,6 +2,15 @@
   background-color: blue;
   overflow: hidden;
 }
+.mobilebar {
+	width: 40%;
+	margin:0 auto 20px;
+	/*border: 2px solid;*/
+	text-align: center;
+}
+.header{
+	text-align: center;
+}
 
 .topnav a {
 float: left;
@@ -18,5 +27,52 @@ background-color: blue
 color: red;
 }
 
-
+@media all and (max-width: 480px){
+	.mobilebar{
+	/*float: left;*/
+	color: blue;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	}
+	.header{
+		font-size: 12px;
+	}
+    .words{
+        float: left;
+        font-size: 12px;
+        margin: auto;
 }
+}
+@media all and (min-width: 481px) and (max-width: 768px){
+     .mobilebar{
+      text-align: center;
+      font-size: 15px;
+      }
+     .header{
+      font-size: 15px;
+   }
+     .words{
+   	 float: left;
+   	 font-size: 15px;
+   	 margin: auto;
+   
+   }
+   }
+ @media all and (min-width: 769px) and (max-width: 960px){
+     .mobilebar{
+     text-align: center;
+     text-decoration: none;
+     font-size: 18px;
+     }
+     .header{
+     font-size: 18px;
+     }
+     .words{
+     float: left;
+     font-size: 18px;
+     margin: auto;	
+     }
+ }
+
+

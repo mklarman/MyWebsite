@@ -45,3 +45,10 @@ color: red;
 	float: left;
 }
 
+@media all and (min-width: 480px){
+.mobilebar{
+float: left;
+color: blue;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
