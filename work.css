@@ -1,0 +1,47 @@
+.topnav{
+  background-color: blue;
+  overflow: hidden;
+}
+
+.topnav a {
+float: left;
+color: blue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 18px;
+
+}
+
+.topnav a:hover {
+background-color: blue
+color: red;
+
+}
+
+#atmydesk{
+	height: 100px;
+	width: 180px;
+	background-image: url('workpic.jpg');
+	background-repeat: no-repeat;
+	border: 1px solid red;
+	float: left;
+}
+#ontherun{
+    height: 100px;
+    width: 180px;
+    background-image: url('running.jpg');
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    float: left;
+}
+
+#toytime{
+	height: 100px;
+	width: 180px;
+	background-image: url('toytime.jpg');
+	background-repeat: no-repeat;
+	border: 1px solid red;
+	float: left;
+}
+

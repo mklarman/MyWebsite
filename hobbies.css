@@ -1,0 +1,43 @@
+.topnav{
+  background-color: blue;
+  overflow: hidden;
+}
+
+.topnav a {
+float: left;
+color: blue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 18px;
+
+}
+
+.topnav a:hover {
+background-color: blue
+color: red;
+
+}
+
+#splash{
+	height: 150px;
+	width: 250px;
+	background-image: url('soaked.jpg');
+	background-repeat: no-repeat;
+	border: 1px solid red;
+}
+#pranks{
+    height: 150px;
+    width: 250px;
+    background-image: url('pranks.jpg');
+    background-repeat: no-repeat;
+    border: 1px solid red;
+}
+
+#stealing{
+	height: 150px;
+	width: 250px;
+	background-image: url('stealing.jpg');
+	background-repeat: no-repeat;
+	border: 1px solid red;
+}
