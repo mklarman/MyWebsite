@@ -1,95 +1,93 @@
-.topnav{
-  background-color: blue;
-  overflow: hidden;
-}
+.bar2{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    }
 
-.topnav a {
-float: left;
-color: blue;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 18px;
-
-}
-
-.topnav a:hover {
-background-color: blue
-color: red;
-
-}
 .header2{
 	text-align: center;
 }
-#splash{
-	height: 150px;
-	width: 250px;
-	background-image: url('soaked.jpg');
-	background-repeat: no-repeat;
-	border: 1px solid red;
-}
-#pranks{
+
+.img{
     height: 150px;
     width: 250px;
-    background-image: url('pranks.jpg');
     background-repeat: no-repeat;
-    border: 1px solid red;
+    /*border: 2px solid green;*/
+    margin: 0 auto;
+    box-shadow: 5px 5px 12px grey;
 }
+
+ .cap1 {
+    display: block;
+    /*background-color: lightgrey;*/
+    width: 300px;
+    margin: 0 auto;
+ }
+
+
+#splash{
+	background-image: url('soaked.jpg');
+
+}
+
+#pranks{   
+    background-image: url('pranks.jpg');
+}
+
 
 #stealing{
-	height: 150px;
-	width: 250px;
 	background-image: url('stealing.jpg');
-	background-repeat: no-repeat;
-	/*border: 1px solid red;*/
 }
-@media all and (min-width: 480px){
+
+
+@media all and (max-width: 480px){
     
-    .bar2{
-    color: blue;
-	text-align: center;
-	text-decoration: none;
-	font-size: 12px;
-	}
-    .header2{
-    font-size: 12px;
-    }
+  .cap1 {
+    margin-bottom: 30px;
+    /*box-shadow: 5px 5px 12px grey;*/
+  }
 
-    .pics{
-    height: 50px;
-    width: 50px;
-    border: 1px solid green;
-    background-repeat: no-repeat;
-    margin-bottom: 25px;
+  .img {
+    border-radius: 50px;
+  }
 
-    }
-   
-    .cap1{
-    float: left;
-    font-size: 10px
-    }
 
 }
 
 @media all and (min-width: 481px) and (max-width: 768px){
+      .cap1 {    
+    margin-bottom: 45px;   
+  }
 
-	.pics{
+  .img {
+    box-shadow: 10px 10px 10px lightblue;
+  }
+	
 
-	    height: 150px;
-	    width: 150px;
-	    border: 1px solid green;
-	    background-repeat: no-repeat;
-	    margin-bottom: 25px;
-    }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px){
     .wrapper {
-    	border: 2px solid green;
+        /*border: 2px solid;*/
+        overflow: hidden;
+        min-width: 921px;
+    }
+    .image-wrapper {
+        float: left;
+    }
+}
+
+@media all and (min-width: 993px){
+    .wrapper {
+        width: 1000px;
+        overflow: hidden;
+        /*border: 2px solid;*/
 
     }
 
-    .cap1{
-	    border: 2px solid blue;
-	    font-size: 10px;
-	    margin: 0 auto 20px;
+    .image-wrapper {
+        float: left;
+        margin: 10px;
     }
 
 
