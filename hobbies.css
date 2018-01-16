@@ -1,3 +1,17 @@
+body{
+    background: red;
+}
+
+.wrapper{
+    height: 300px;
+    width: 10px;
+    border: 2px solid red;
+    background-image: url(soaked.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
 .bar2{
     text-align: center;
     text-decoration: none;
@@ -8,89 +22,69 @@
 	text-align: center;
 }
 
-.img{
-    height: 150px;
-    width: 250px;
-    background-repeat: no-repeat;
-    /*border: 2px solid green;*/
-    margin: 0 auto;
-    box-shadow: 5px 5px 12px grey;
-}
-
- .cap1 {
-    display: block;
-    /*background-color: lightgrey;*/
-    width: 300px;
-    margin: 0 auto;
- }
-
-
-#splash{
-	background-image: url('soaked.jpg');
-
-}
-
-#pranks{   
-    background-image: url('pranks.jpg');
-}
-
-
-#stealing{
-	background-image: url('stealing.jpg');
-}
-
 
 @media all and (max-width: 480px){
-    
-  .cap1 {
-    margin-bottom: 30px;
-    /*box-shadow: 5px 5px 12px grey;*/
-  }
 
-  .img {
-    border-radius: 50px;
-  }
+.wrapper{
+    height: 100px;
+    width: 80%;
+    border: 2px solid red;
+    background-image: url(soaked.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;}
 
+.header2{
+    font-size: 10px;
+    margin: 0 auto;
+    }
 
 }
 
 @media all and (min-width: 481px) and (max-width: 768px){
-      .cap1 {    
-    margin-bottom: 45px;   
-  }
+.wrapper{
+    height: 200px;
+    width: 100%;
+    border: 2px solid red;
+    background-image: url(soaked.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;}
 
-  .img {
-    box-shadow: 10px 10px 10px lightblue;
-  }
-	
-
+.header2{
+        font-size: 15px;
+        color: green;
+    }
 }
 
 @media all and (min-width: 769px) and (max-width: 992px){
-    .wrapper {
-        /*border: 2px solid;*/
-        overflow: hidden;
-        min-width: 921px;
-    }
-    .image-wrapper {
-        float: left;
-    }
+    .wrapper{
+    height: 300px;
+    width: 100%;
+    border: 2px solid red;
+    background-image: url(soaked.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;}
+
+.header2{
+        font-size: 20px;
+        color: blue;}
 }
 
 @media all and (min-width: 993px){
-    .wrapper {
-        width: 1000px;
-        overflow: hidden;
-        /*border: 2px solid;*/
+    .wrapper{
+    height: 400px;
+    width: 100%;
+    border: 2px solid red;
+    background-image: url(soaked.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;}
 
-    }
-
-    .image-wrapper {
-        float: left;
-        margin: 10px;
-    }
-
-
+.header2{
+        font-size: 25px;
+        color: black;}
 }
 
 

@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .topnav{
   background-color: blue;
   overflow: hidden;
@@ -10,6 +13,7 @@
 }
 .header{
 	text-align: center;
+  color: white;
 }
 
 .topnav a {
@@ -25,6 +29,14 @@ font-size: 18px;
 .topnav a:hover {
 background-color: blue
 color: red;
+}
+
+.words{
+  height: 60%;
+  width: 90%;
+  background-color: lightgrey;
+  border: 10px solid red;
+  margin: 0 auto;
 }
 
 @media all and (max-width: 480px){
